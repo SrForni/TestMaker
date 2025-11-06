@@ -86,6 +86,8 @@ What is the capital of France?;London;Berlin;Paris;Madrid;Paris
    - **Random**: Questions are shuffled randomly
    - **SuperRandom**: Questions AND answer options are both randomized
 
+   ![Menú principal](./public/images/menu.png)
+
 2. **Set Question Limit** (optional):
    - Leave empty to use all questions
    - Enter a number to limit the quiz length
@@ -104,17 +106,25 @@ What is the capital of France?;London;Berlin;Paris;Madrid;Paris
 - **Performance Metrics**: Detailed breakdown of your performance
 - **Retry Options**: Start over with the same settings or return to configuration
 
-## 🏗️ Project Structure
+## 📖 Usage Guide
 
-\`\`\`
-├── app/
-│   ├── api/questions/route.ts    # CSV processing API
-│   ├── quiz/page.tsx            # Main quiz interface
-│   └── page.tsx                 # Quiz configuration page
-├── components/ui/               # Reusable UI components
-├── test.csv                     # Your quiz questions (add this file)
-└── README.md                    # This file
-\`\`\`
+### Taking the Quiz
+
+- **Correct Answer Example**:
+
+![Pregunta acertada](./public/images/answer-correct.png)
+
+- **Wrong Answer Example**:
+
+![Pregunta fallada](./public/images/answer-wrong.png)
+
+- **Read each question** carefully
+- **Select your answer** by clicking on the radio button
+- **Click "Continue"** to submit your answer
+- **Review feedback** - correct answers are highlighted in green
+- **Click "Next"** to proceed to the next question
+
+---
 
 ## 🎨 UI Components
 
